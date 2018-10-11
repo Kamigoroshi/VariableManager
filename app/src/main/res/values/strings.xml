@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExamenAndroidPiette</string>
+    <string name="password">Mot de passe :</string>
+    <string name="login">Connexion</string>
+    <string name="enregistrer">S\'enregistrer</string>
+    <string name="username">Nom d\'utilisateur : </string>
+    <string name="ajoutvariable">Ajouter variable</string>
+    <string name="madashboard">Ma dashboard</string>
+</resources>

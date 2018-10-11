@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView android:id="@+id/affich_nomVariable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gris"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"  />
+
+    <TextView android:id="@+id/affich_valeurVariable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gris"
+        android:layout_alignLeft="@+id/affich_nomVariable"
+        android:layout_below="@+id/affich_nomVariable" />
+
+    <CheckBox
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/affich_valeurVariable"
+        android:layout_marginLeft="350dp"
+        android:id="@+id/cb_variable"
+        android:textSize="0dp"/>
+
+</RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
